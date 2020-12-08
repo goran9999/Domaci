@@ -1,0 +1,136 @@
+html{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Arial';
+}
+.forma{
+  display: grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-template-rows: repeat(3,1fr); 
+ grid-row-gap: 30px;
+justify-items: center;
+
+ 
+}
+header{
+    margin:0;
+    width: 100%;
+    background-color:white;
+    width: 100%;
+    margin-top: -8;
+    position: sticky;
+    top: 0;
+    
+    
+}
+#logo{
+    margin-left: -15;
+    margin-top: 5px;
+}
+.nav-bar{
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0px;
+    color: 
+    font-weight: 500;
+    font-size: 20;
+    font-family: 'Staatliches';
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+}
+
+#pon{
+    margin-left:-60px;
+}
+#ime{
+    margin-left: 5px;
+}
+.forma2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+.form input{
+
+}
+#prviDiv{
+    padding: 40
+}
+.tekst{
+    margin-left: 400px;
+    margin-top: 60px;    
+}
+#posBr{
+    margin-left: -55px;
+}
+#sprat{
+    margin-left: -106px;
+}
+#broj{
+    margin-left: -50px
+}
+#grad{
+    margin-left: -90px;
+}
+#grad select{
+    border: none;
+    
+}
+.forma input{
+    border: none;
+    border-bottom: 4px solid #e8e8e8;
+}
+.forma2 input{
+    border: none;
+    border-bottom: 4px solid #e8e8e8;
+}
+#pol{
+    margin-left: 0px;
+}
+.forma input:focus{
+    outline: none;
+}
+.forma2 input:focus{
+    outline: none;
+}
+hr{
+    background-color: orange;
+    height: 1px;
+}
+h3{
+    margin-bottom: 30px;
+}
+.dugme{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+#d1{
+    background-color: #32CD32;
+   font-family: 'Bebas Neue';
+    font-size: 20px;
+    height: 40px;
+    
+}
+#d1:hover{
+    background-color: #009a00;
+}
+#d1{
+    background-color: #32CD32;
+   font-family: 'Bebas Neue';
+    font-size: 20px;
+    height: 40px;
+    
+}

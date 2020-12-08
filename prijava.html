@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>Prijava</title>
+    <link rel="stylesheet" href="css/prijava.css">
+    <link rel="stylesheet" type="text/css" href="css/prijava-responzivnost.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+     <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+    </head>
+
+<body>
+     <header>
+    <div class="logo">
+        </div>
+    <a href="index.html"><img id="logo" src="resources/img/logo-transparent.png"></a>
+        <div class="nav-bar">
+        <ul>
+           <li><a href="index.html">Core Computers</a></li>
+            <li><a href="proizvodi.html">Proizvodi</a></li>
+            <li><a href="prijava.html">Prijava</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        
+        </div>
+    </header>
+    
+    
+    <h1>Formular za registraciju</h1>
+    <div class="paragraf">
+    <h3>Prijavite se na nasoj e-prodavnici kako bi dobijali obavestenja o popustima i ucestvovali u nagradnim igrama,i ostavite podatke o adresi za kucnu dostavu!</h3>
+    </div>
+    
+    <form class="velikaForma">
+    <div class="forma">   
+    <div id="ime">Ime * <input type="textbox" id="ime"  name="ime"></div> 
+    <div>Prezime * <input type="textbox" id="prezime"  name="prezime"></div> 
+    
+   <div>E-mail * <input type="email" id="email"  name="email"></div> 
+   <div>Lozinka * <input type="password" id="lozinka"  name="lozinka"></div> 
+   <div id="pon">Ponovite lozinku * <input type="password"  id="lozinka2" name="ponoviLozinku"></div> 
+   
+   <div>Broj tel. * <input type="tel" name="tel"></div><br>
+        
+    
+     </div>
+    <hr>
+    <h2>Dodatni podaci o korisniku</h2>
+    <div class="forma2">
+    <div>Ulica <input type="textbox"></div>
+    <div id="broj">Broj <input type="textbox" size="5"></div>
+    <div id="sprat">Sprat <input type="textbox" size="3"></div>
+    <div id="grad">
+        <label for="gradovi">Grad/Mesto * </label>
+        <select name="gradovi" >
+        
+        <option value="default"></option>
+        <option value="beograd">Beograd</option>
+        <option value="novi sad">Novi Sad</option>
+        <option value="nis">Nis</option>
+        <option value="subotica">Subotica</option>
+        </select></div>
+<!--    <div>Grad/Mesto <input type="textbox"></div>-->
+    <div id="posBr">Postanski broj <input type="textbox"></div>
+    <div id="pol">Titula:&emsp;<input type="radio" name="pol">Gospodin &emsp; <input type="radio" name="pol"> Gospođa</div>
+    </div>
+    <div class="tekst">
+       
+       Da, želim da dobijam obaveštenja o aktuelnoj ponudi i promocijama – Newsletter <input type="checkbox" id="newsletter"><br><br> 
+   Da, želim da dobijam obaveštenja o aktuelnoj ponudi i promocijama – Viber/sms  <input type="checkbox" id="sms/vib"><br><br>
+   Slažem se sa Core Computers <a>Politikom privatnosti</a>, kao i sa tim da Core Computers sačuva moje lične podatke * <input type="checkbox" name="check"></div>
+    
+    <div class="dugme">
+    <button type="submit" id="d1">Potvrdi</button>
+    <button type="reset"  id="d2">Obrisi</button>
+<!--
+    <input type=submit value="POTVRDI" name="dugmePotvrdi" id="d1">
+    <input type=reset value="Obriši" name="dugmeObrisi" id="d2">
+-->
+    </div>
+        </form>
+     <script src="js/valiadcija-forme.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,147 @@
+
+@media screen and (max-width:645px){
+    .naslov h2{
+        font-size: 22px;
+    }
+    .naslov p{
+        font-size: 17px;
+    }
+    .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 17px;
+}
+    #logo{
+    margin-left: -15;
+    margin-top: 5px;
+    width: 170px;
+    height: auto;
+}
+    .faq h2{
+      font-size: 19px;  
+    }
+    .accordion h3{
+        font-size: 18px;
+    }
+    .accordion div{
+        font-size:16px; 
+    }
+}
+    @media screen and (max-width:576px){
+    .naslov h2{
+        font-size: 15px;
+    }
+        .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 13px;
+}
+    #logo{
+    margin-left:20px;
+    margin-top: 5px;
+    width: 80px;
+    height: auto;
+}
+    .naslov p{
+        font-size: 13px;
+    }
+    .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 12px;
+}
+    #logo{
+    margin-left: -15;
+    margin-top: 5px;
+    width: 120px;
+    height: auto;
+}
+    .faq h2{
+      font-size: 17px;  
+    }
+    .accordion h3{
+        font-size: 13px;
+    }
+    .accordion div{
+        font-size:13px; 
+    }
+}
+ @media screen and (max-width:442px){
+    .naslov h2{
+        font-size: 15px;
+    }
+        .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 13px;
+}
+    #logo{
+    margin-left:20px;
+    margin-top: 5px;
+    width: 80px;
+    height: auto;
+}
+    .naslov p{
+        font-size: 13px;
+    }
+    .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 11px;
+}
+    #logo{
+    margin-left: -15;
+    margin-top: 5px;
+    width: 110px;
+    height: auto;
+}
+    .faq h2{
+      font-size: 17px;  
+    }
+    .accordion h3{
+        font-size: 13px;
+    }
+    .accordion div{
+        font-size:13px; 
+    }
+}
+@media screen and (max-width:418px){
+    .naslov h2{
+        font-size: 15px;
+    }
+        .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 13px;
+}
+    #logo{
+    margin-left:20px;
+    margin-top: 5px;
+    width: 40px;
+    height: auto;
+}
+    .naslov p{
+        font-size: 13px;
+    }
+    .nav-bar a{
+    text-decoration: none;
+    color: #1e1ea2;
+    font-size: 9px;
+    
+}
+    #logo{
+    margin-left: -15;
+    margin-top: 5px;
+    width: 110px;
+    height: auto;
+}
+    .faq h2{
+      font-size: 17px;  
+    }
+    .accordion h3{
+        font-size: 13px;
+    }
+    .accordion div{
+        font-size:13px; 
+    }
+}

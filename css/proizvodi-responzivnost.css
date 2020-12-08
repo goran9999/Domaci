@@ -1,0 +1,161 @@
+@media screen and (max-width:1280px){
+    
+    .prev{
+        margin-left: 310px;
+    }
+    .next{
+        margin-left:0px;
+    }
+    .slider-inner{
+        width:500px;
+        height: 300px;
+        margin-left: 350px;
+    }
+    .slider-inner img{
+         width:500px;
+        height: 300px;
+    }
+    .ikonice{
+        margin-left: 520px;
+    }
+  .paragraf  p{
+        font-size: 30px;
+      margin-left: -200px;
+    }
+}
+@media screen and (max-width:1080px){
+    
+    .prev{
+        margin-left: 200px;
+    }
+    .next{
+        margin-left:0px;
+    }
+    .slider-inner{
+        width:500px;
+        height: 300px;
+        margin-left: 240px;
+    }
+    .slider-inner img{
+         width:500px;
+        height: 300px;
+    }
+    .ikonice{
+        margin-left: 400px;
+    }
+  .paragraf  p{
+        font-size: 25px;
+      margin-left: -200px;
+    }
+}
+@media screen and (max-width:800px){
+    
+    .prev{
+        margin-left: 150px;
+        margin-top:200px;
+        width: 30px;
+    }
+    .next{
+        width: 30px;
+        margin-left:0px;
+        margin-top: 195px;
+    }
+    .slider-inner{
+        width:400px;
+        height: 230px;
+        margin-left: 180px;
+    }
+    .slider-inner img{
+         width:400px;
+        height: 230px;
+    }
+    .ikonice{
+        margin-left: 280px;
+    }
+  .paragraf  p{
+        font-size: 20px;
+        margin-left: -200px;
+    }
+    .nav-bar ul li{
+        font-size: 18px;
+    }
+    #logo{
+        width: 170px;
+    }
+}
+@media screen and (max-width:720px){
+    
+    .prev{
+        margin-left: 150px;
+        margin-top:200px;
+        width: 30px;
+    }
+    .next{
+        width: 30px;
+        margin-left:0px;
+        margin-top: 195px;
+    }
+    .slider-inner{
+        width:300px;
+        height: 200px;
+        margin-left: 180px;
+    }
+    .slider-inner img{
+         width:300px;
+        height: 200px;
+    }
+    .ikonice{
+        margin-left: 230px;
+    }
+  .paragraf  p{
+        font-size: 18px;
+        margin-left: -200px;
+    }
+    .nav-bar ul li{
+        font-size: 15px;
+    }
+    #logo{
+        width: 150px;
+    }
+    .date{
+        margin-left: 28%;
+    }
+}
+@media screen and (max-width:550px){
+    .prev{
+        margin-left: 70px;
+        margin-top:200px;
+        width: 30px;
+    }
+    .next{
+        width: 30px;
+        margin-left:0px;
+        margin-top: 195px;
+    }
+    .slider-inner{
+        width:300px;
+        height: 200px;
+        margin-left: 100px;
+    }
+    .slider-inner img{
+         width:300px;
+        height: 200px;
+    }
+    .nav-bar ul li{
+        font-size: 12px;
+    }
+    #logo{
+        width: 120px;
+    }
+    .paragraf  p{
+        font-size: 15px;
+        margin-left: -280px;
+    }
+     .ikonice{
+        margin-left: 130px;
+    }
+     .date{
+        margin-left: 16%;
+    }
+    
+}
